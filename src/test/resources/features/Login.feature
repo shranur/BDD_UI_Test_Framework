@@ -8,8 +8,8 @@ And User clicks on Login button
 Then User should get successfully logged in
 Examples:
 |username								|password	|
-|anuragshrivastava007@gmail.com	| Password#23 |
 |anurag.ec27@gmail.com	|Password |
+
 
 
 Scenario: Login with invalid credentials

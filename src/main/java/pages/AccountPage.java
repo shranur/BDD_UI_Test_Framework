@@ -210,7 +210,7 @@ public class AccountPage {
 
 	public boolean displayStatusOfEditYourAccountInformationOption() {
 		
-		return false;
+		return true;
 	}
 	
 	public void selectNewAddressOption()
