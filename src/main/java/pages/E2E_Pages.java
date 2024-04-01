@@ -1,4 +1,4 @@
-//package pages;
+package pages;
 //
 //import java.text.MessageFormat;
 //
@@ -59,38 +59,38 @@
 //
 //	@FindBy(xpath = "//input[@id='input-payment-postcode']")
 //	private WebElement Postcode;
-//	
+//
 //	@FindBy(xpath="//select[@id='input-payment-country']")
 //	private WebElement Country;
-//	
+//
 //	@FindBy(xpath="//select[@id='input-payment-zone']")
 //	private WebElement State;
-//	
+//
 //	@FindBy(xpath="//input[@id='button-payment-address']")
 //	private WebElement continueButtonBilling;
-//	
+//
 //	@FindBy(xpath="//input[@id='button-shipping-address']")
 //	private WebElement continueButtonShipping;
-//	
+//
 //	@FindBy(xpath="//input[@id='button-shipping-method']")
 //	private WebElement continueButtonDelivery;
-//	
+//
 //	@FindBy(name="agree")
 //	private WebElement agreeCheckboxPayment;
-//	
+//
 //	@FindBy(xpath="//input[@id='button-payment-method']")
 //	private WebElement continueButtonPayment;
-//	
+//
 //	@FindBy(xpath="//input[@id='button-confirm']")
 //	private WebElement confirmOrderButton;
-//	
+//
 //	@FindBy (xpath="//h1[contains(text(),'Your order has been placed!')]")
 //	private WebElement confirmOrderMessage;
-//	
+//
 //	@FindBy(xpath="//a[contains(text(),'Continue')]")
 //	private WebElement finalContinueButton;
-//	
-//	
+//
+//
 //
 //	public void clickOnPhonesPDAs() {
 //		//phoneAndPdas.click();
@@ -99,7 +99,7 @@
 //
 //	public void clickOnProduct() {
 //		// productName.click();
-//		
+//
 //		elementUtils.clickOnElement(productName, CommonUtils.EXPLICIT_WAIT_BASIC_TIME);
 //	}
 //
@@ -153,17 +153,17 @@
 //		elementUtils.typeTextIntoElement(Postcode, postalcode, CommonUtils.EXPLICIT_WAIT_BASIC_TIME);
 //
 //	}
-//	
+//
 //	public void selectCountry()
 //	{
 //		elementUtils.selectOptionInDropdown(Country, "India", CommonUtils.EXPLICIT_WAIT_BASIC_TIME);
 //	}
-//	
+//
 //	public void selectState()
 //	{
 //		elementUtils.selectOptionInDropdown(State, "Madhya Pradesh", CommonUtils.EXPLICIT_WAIT_BASIC_TIME);
 //	}
-//	
+//
 //	public void clickContinueButtonBilling()
 //	{
 //		elementUtils.clickOnElement(continueButtonBilling, CommonUtils.EXPLICIT_WAIT_BASIC_TIME);
@@ -172,27 +172,27 @@
 //	{
 //		elementUtils.clickOnElement(continueButtonShipping, CommonUtils.EXPLICIT_WAIT_BASIC_TIME);
 //	}
-//	
+//
 //	public void clickContinueButtonDelivery()
 //	{
 //		elementUtils.clickOnElement(continueButtonDelivery, CommonUtils.EXPLICIT_WAIT_BASIC_TIME);
 //	}
-//	
+//
 //	public void selectAgreeCheckboxPayment()
 //	{
 //		elementUtils.clickOnElement(agreeCheckboxPayment, CommonUtils.EXPLICIT_WAIT_BASIC_TIME);
 //	}
-//	
+//
 //	public void clickContinueButtonPayment()
 //	{
 //		elementUtils.clickOnElement(continueButtonPayment, CommonUtils.EXPLICIT_WAIT_BASIC_TIME);
 //	}
-//	
+//
 //	public void clickConfirmOrder()
 //	{
 //		elementUtils.clickOnElement(confirmOrderButton, CommonUtils.EXPLICIT_WAIT_BASIC_TIME);
 //	}
-//	
+//
 //	public boolean successMessageForConfirmOrder() {
 //		return elementUtils.displayStatusOfElement(confirmOrderMessage, CommonUtils.EXPLICIT_WAIT_BASIC_TIME);
 //	}

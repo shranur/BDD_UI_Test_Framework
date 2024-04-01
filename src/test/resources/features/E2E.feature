@@ -33,6 +33,8 @@ Background: User is logged in
     And User validate the order details and click on Confirm Order
     Then User should see the message "Your order has been placed!"
     And User click on Continue
+   Examples:
+     |  |
     
     
 
