@@ -55,11 +55,11 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>Default test</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>12/1/0</td>
+<td>Tests passed/Failed/Skipped:</td><td>11/2/0</td>
 </tr><tr>
-<td>Started on:</td><td>Mon Apr 01 16:57:04 IST 2024</td>
+<td>Started on:</td><td>Wed Apr 03 16:58:09 IST 2024</td>
 </tr>
-<tr><td>Total time:</td><td>69 seconds (69317 ms)</td>
+<tr><td>Total time:</td><td>129 seconds (129427 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -75,17 +75,33 @@ function toggleAllBoxes() {
 <td><b>Instance</b></td>
 </tr>
 <tr>
+<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Login with invalid email and valid password", "Login functionality"</td>
+<td><div><pre>java.lang.NullPointerException: Cannot invoke &quot;org.openqa.selenium.WebElement.click()&quot; because &quot;webElement&quot; is null
+	at utils.ElementUtils.clickOnElement(ElementUtils.java:27)
+	at pages.HomePage.clickOnMyAccount(HomePage.java:41)
+	at stepdefinitions.Login.user_navigates_to_login_page(Login.java:28)
+	at ✽.User navigates to login page(file:///C:/Users/Hp-D/eclipse-workspace/BDD_UI_Test_Framework/src/test/resources/features/Login.feature:30)
+</pre></div><a href='#' onClick='toggleBox("stack-trace155224151", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace155224151'><pre>java.lang.NullPointerException: Cannot invoke &quot;org.openqa.selenium.WebElement.click()&quot; because &quot;webElement&quot; is null
+	at utils.ElementUtils.clickOnElement(ElementUtils.java:27)
+	at pages.HomePage.clickOnMyAccount(HomePage.java:41)
+	at stepdefinitions.Login.user_navigates_to_login_page(Login.java:28)
+	at ✽.User navigates to login page(file:///C:/Users/Hp-D/eclipse-workspace/BDD_UI_Test_Framework/src/test/resources/features/Login.feature:30)
+</pre></div></td>
+<td>33</td>
+<td>runner.TestRunner@15043a2f</td></tr>
+<tr>
 <td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Ordering any product", "Placing the order for an product"</td>
 <td><div><pre>java.lang.NullPointerException: Cannot invoke &quot;pages.PlacingOrderPage.hoverOnDesktopButton()&quot; because &quot;this.placingAnOrderPage&quot; is null
 	at stepdefinitions.PlacingAnOrder.user_select_the_product_category(PlacingAnOrder.java:23)
 	at ✽.User select the product category(file:///C:/Users/Hp-D/eclipse-workspace/BDD_UI_Test_Framework/src/test/resources/features/PlacingAnOrder.feature:38)
-</pre></div><a href='#' onClick='toggleBox("stack-trace677705863", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace677705863'><pre>java.lang.NullPointerException: Cannot invoke &quot;pages.PlacingOrderPage.hoverOnDesktopButton()&quot; because &quot;this.placingAnOrderPage&quot; is null
+</pre></div><a href='#' onClick='toggleBox("stack-trace1581066085", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1581066085'><pre>java.lang.NullPointerException: Cannot invoke &quot;pages.PlacingOrderPage.hoverOnDesktopButton()&quot; because &quot;this.placingAnOrderPage&quot; is null
 	at stepdefinitions.PlacingAnOrder.user_select_the_product_category(PlacingAnOrder.java:23)
 	at ✽.User select the product category(file:///C:/Users/Hp-D/eclipse-workspace/BDD_UI_Test_Framework/src/test/resources/features/PlacingAnOrder.feature:38)
 </pre></div></td>
-<td>4</td>
-<td>runner.TestRunner@196a42c3</td></tr>
+<td>5</td>
+<td>runner.TestRunner@15043a2f</td></tr>
 </table><p>
 <table width='100%' border='1' class='invocation-passed'>
 <tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
@@ -95,65 +111,60 @@ function toggleAllBoxes() {
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Login with valid email and invalid password", "Login functionality"</td>
+<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Login with invalid credentials", "Login functionality"</td>
 <td></td>
-<td>4</td>
-<td>runner.TestRunner@196a42c3</td></tr>
-<tr>
-<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "User creates an account without filling any details", "Registration functionality"</td>
-<td></td>
-<td>4</td>
-<td>runner.TestRunner@196a42c3</td></tr>
+<td>5</td>
+<td>runner.TestRunner@15043a2f</td></tr>
 <tr>
 <td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "User searches for a valid product", "Search functionality"</td>
 <td></td>
-<td>3</td>
-<td>runner.TestRunner@196a42c3</td></tr>
-<tr>
-<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "User creates a duplicate account", "Registration functionality"</td>
-<td></td>
-<td>4</td>
-<td>runner.TestRunner@196a42c3</td></tr>
-<tr>
-<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Login with invalid credentials", "Login functionality"</td>
-<td></td>
-<td>4</td>
-<td>runner.TestRunner@196a42c3</td></tr>
-<tr>
-<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "User creates an account with all fields", "Registration functionality"</td>
-<td></td>
-<td>4</td>
-<td>runner.TestRunner@196a42c3</td></tr>
-<tr>
-<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Login without providing any credentails", "Login functionality"</td>
-<td></td>
-<td>3</td>
-<td>runner.TestRunner@196a42c3</td></tr>
-<tr>
-<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Login with invalid email and valid password", "Login functionality"</td>
-<td></td>
-<td>3</td>
-<td>runner.TestRunner@196a42c3</td></tr>
+<td>6</td>
+<td>runner.TestRunner@15043a2f</td></tr>
 <tr>
 <td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Login with valid credentials", "Login functionality"</td>
 <td></td>
-<td>11</td>
-<td>runner.TestRunner@196a42c3</td></tr>
-<tr>
-<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "User searches for an invalid product", "Search functionality"</td>
-<td></td>
-<td>3</td>
-<td>runner.TestRunner@196a42c3</td></tr>
-<tr>
-<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "User creates an account only with mandatory fields", "Registration functionality"</td>
-<td></td>
-<td>9</td>
-<td>runner.TestRunner@196a42c3</td></tr>
+<td>12</td>
+<td>runner.TestRunner@15043a2f</td></tr>
 <tr>
 <td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "User searches without any product", "Search functionality"</td>
 <td></td>
-<td>2</td>
-<td>runner.TestRunner@196a42c3</td></tr>
+<td>9</td>
+<td>runner.TestRunner@15043a2f</td></tr>
+<tr>
+<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Login without providing any credentails", "Login functionality"</td>
+<td></td>
+<td>5</td>
+<td>runner.TestRunner@15043a2f</td></tr>
+<tr>
+<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Login with valid email and invalid password", "Login functionality"</td>
+<td></td>
+<td>5</td>
+<td>runner.TestRunner@15043a2f</td></tr>
+<tr>
+<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "User creates an account with all fields", "Registration functionality"</td>
+<td></td>
+<td>8</td>
+<td>runner.TestRunner@15043a2f</td></tr>
+<tr>
+<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "User creates an account only with mandatory fields", "Registration functionality"</td>
+<td></td>
+<td>6</td>
+<td>runner.TestRunner@15043a2f</td></tr>
+<tr>
+<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "User creates an account without filling any details", "Registration functionality"</td>
+<td></td>
+<td>7</td>
+<td>runner.TestRunner@15043a2f</td></tr>
+<tr>
+<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "User creates a duplicate account", "Registration functionality"</td>
+<td></td>
+<td>7</td>
+<td>runner.TestRunner@15043a2f</td></tr>
+<tr>
+<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "User searches for an invalid product", "Search functionality"</td>
+<td></td>
+<td>8</td>
+<td>runner.TestRunner@15043a2f</td></tr>
 </table><p>
 </body>
 </html>
